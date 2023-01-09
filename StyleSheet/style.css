@@ -76,8 +76,9 @@ body {
   .light{
     padding-right: 2rem;
     z-index: 2;
-    position: fixed;
+    
     display: none;
+   
     
 
   }
@@ -85,9 +86,19 @@ body {
   .night{
     padding-right: 2rem;
     z-index: 2;
-    position: fixed;
+    padding-bottom: 4rem;
+    top:0;
+  left:0;
 
   }
+
+  .toggle_mode {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+    padding-bottom: 4rem;
+    
+}
 
 
 
@@ -1291,22 +1302,6 @@ button{
     padding: 0.3rem;
 
 }
-
-
-
-
-
-
-
-    
-
-    
-
-
-
-    
-
-
 
 
 }
